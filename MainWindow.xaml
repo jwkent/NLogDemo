@@ -1,0 +1,15 @@
+﻿<Window x:Class="NLogDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NLogDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="259.219" Width="322.656">
+    <Grid>
+        <Button x:Name="btnLogging" Content="Logging All On" HorizontalAlignment="Left" Margin="80,24,0,0" VerticalAlignment="Top" Width="161" Height="58" Click="btnLogging_Click"/>
+        <Button x:Name="btnLoggingErrorsOnly" Content="Logging Errors Only" HorizontalAlignment="Left" Margin="80,87,0,0" VerticalAlignment="Top" Width="161" Height="58" Click="btnLoggingErrorsOnly_Click"/>
+        <Button x:Name="btnCreateErrorMsgs" Content="Create Error Msgs" HorizontalAlignment="Left" Margin="80,150,0,0" VerticalAlignment="Top" Width="162" Height="58" Click="btnLoggingCreateErrors_Click"/>
+
+    </Grid>
+</Window>
